@@ -81,10 +81,8 @@ nav a:focus
 }
 
 .column_right {
-    display: flex;
     position: sticky;
     position: -webkit-sticky;
-    align-self: flex-start;
     top: 0;
     padding: 4rem 2rem;
     box-sizing: border-box;
@@ -119,6 +117,12 @@ img {
     min-width: 0;
     flex: 1 1 0;
     width: 12.5rem;
+}
+
+.scroll_notice {
+    color: #333;
+    width: 17rem;
+    padding-top: 2rem;
 }
 
 @media only screen and (max-width: 800px) {
