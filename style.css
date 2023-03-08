@@ -102,7 +102,7 @@ nav a:focus
 .align_img {
     overflow-x: scroll;
     white-space: nowrap;
-    width: calc(100vw - 21rem + 1px);
+    width: calc(100vw - 4rem - 21rem + 1px);
 }
 
 .align_img img {
