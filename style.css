@@ -99,24 +99,38 @@ nav a:focus
     padding-bottom: 4rem;
 }
 
-.align_img {
+.sample_img--horizontal {
     overflow-x: scroll;
     white-space: nowrap;
     width: calc(100vw - 4rem - 21rem + 1px);
 }
 
-.align_img img {
+.sample_img--horizontal img {
     margin-left: 1rem;
 }
-.align_img > img:first-child {
+
+.sample_img--horizontal > img:first-child {
     margin: 0;
 }
 
-img {
+.sample_img--horizontal > img {
     display: inline;
     min-width: 0;
     flex: 1 1 0;
-    width: 12.5rem;
+    height: 27rem;
+}
+
+.sample_img--vertical {
+    /* display: flex;
+    flex-direction: column; */
+}
+
+.sample_img--vertical > img {
+    display: block;
+}
+
+.sample_img--vertical > img:last-child {
+    padding-top: 2rem;
 }
 
 .scroll_notice {
@@ -134,7 +148,7 @@ img {
         display: none;
     }
 
-    .align_img {
+    .sample_img--horizontal {
         width: calc(100vw - 2rem);
     }
 }
