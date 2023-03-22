@@ -26,15 +26,13 @@
                 <div class="content">
                     <ul>
                         <li>
-                            Supports different few types of players. Themes are based on task mode(yellow) and
-                            regardless of task(pink). Mantras are based on bow mode(count) and other mantras(lyrics).
+                            Supports multiple types of players. Different themes available for different tasks (yellow and pink). Bow counter and live lyrics during mantras provided.
                         </li>
                         <li>
-                            The proximity sensor counts when it detects a head. To prevent duplication of bow count, it
-                            was developed to detect when the top right corner lotus indicator is fully loaded.
+                            The proximity sensor counts each time it detects a head. To prevent duplication and maintain their pace, the user can refer to when the lotus indicator in the upper right corner is fully loaded.
                         </li>
                         <li>
-                            If a device doesn't support proximity sensor, go to settings and set the timer.
+                            If a device doesn't support the proximity sensor, go to settings and set the bow timer.
                         </li>
                         <li>
                             The music player calculates the position of the title and play button and applies the
@@ -57,13 +55,10 @@
                 </div>
                 <div class="content">
                     <ul>
-                        <li>Based on the background action, it interacts with the local db to track progress of tasks or
-                            regardless of tasks.</li>
-                        <li>Play, pause, next song, previous song, seek duration in the background.</li>
-                        <li>Reflect the number of iterations of the task.</li>
+                        <li>Background action interacts with the local db to track progress.</li>
+                        <li>Play, pause, go to the next or previous song, seek duration in the background.</li>
+                        <li>Reflects the number of iterations of the task.</li>
                     </ul>
-                    ※ This feature originally requires a subscription to use, but
-                    requires some back-end work, so it currently only supports some people close to me.
                 </div>
             </section>
             <section id="live_lyrics">
@@ -74,8 +69,8 @@
                 <div class="content">
                     <ul>
                         <li>Improved performance to updating current duration once second is changed using rxdart.</li>
-                        <li>Scroll to a current lyric phrase. Flutter doesn't support scrollToItem currently.</li>
-                        <li>Previous, current, next lyric phrases have different text effect styles.</li>
+                        <li>Scroll to a current lyric. Flutter doesn't support scrollToItem currently.</li>
+                        <li>Previous, current, and next lyrical phrases have different text effect styles.</li>
                     </ul>
                 </div>
             </section>
@@ -88,12 +83,11 @@
                 </div>
                 <div class="content">
                     <ul>
-                        <li>Implemented it with custom painter and gesture.</li>
-                        <li>Support two different types of process bars.</li>
-                        <li>Calculate the position of the indicator according to the center of the user's gesture.</li>
-                        <li>Seek duration box follows progress bar's indicator and calculate not to overflow
-                            at screen edges.</li>
-                        <li>Grow, shrink, and align according to the size of the music player.</li>
+                        <li>Implemented with custom painter and gestures.</li>
+                        <li>Supports two different types of progress bars.</li>
+                        <li>Calculates the position of the indicator according to the center of the user's gesture.</li>
+                        <li>Seek duration box follows progress bar's indicator not to overflow at screen's edges.</li>
+                        <li>Grows, shrinks, and aligns according to the size of the music player.</li>
                     </ul>
                 </div>
             </section>
@@ -107,8 +101,8 @@
                     <ul>
                         <li>Help is supported on all interactive screens.</li>
                         <li>Help Indicator position can be changed.</li>
-                        <li>Once help is activated, it grows to the size of the screen and hides bottom navigation bar and active music player.</li>
-                        <li>Drew arrow with custom painter with animation.</li>
+                        <li>Once help is activated, it expands across the whole screen while bottom navigation bar and active music player is hidden.</li>
+                        <li>Arrow drawn with custom painter with animation.</li>
                 </div>
             </section>
 
@@ -119,9 +113,9 @@
                 </div>
                 <div class="content">
                     <ul>
-                        <li>Daily progress(tasks and regardless of task) is saved until midnight. All progress resets each day.</li>
-                        <li>Show how much the user has completed on that day in each year.</li>
-                        <li>Animate once the values are changed.</li>
+                        <li>Daily progress is saved until midnight. Progress resets each day.</li>
+                        <li>Completion percentage rate provided daily and organized by year.</li>
+                        <li>Bar graph adjusts according to the tab indicator.</li>
                         <li>The indicator follows where the user taps.</li>
                     </ul>
                 </div>
@@ -134,10 +128,10 @@
                 </div>
                 <div class="content">
                     <ul>
-                        <li>It's records of the user's feeling and thoughts in the reflection journal.</li>
-                        <li>Show the date, percentage of completion, and reflection of that day.</li>
-                        <li>Depending on the scroll position, the left wall indicator is applied.</li>
-                        <li>When the user taps the left month, the reader moves to the corresponding month.</li>
+                        <li>User's record feelings and thoughts in the reflection journal.</li>
+                        <li>Date, percentage of completion, and reflection of that day displayed.</li>
+                        <li>The left wall indicator appears and disappears depending on the scroll position.</li>
+                        <li>When the user taps a month on the left side, the reader moves to the corresponding month.</li>
                     </ul>
                 </div>
             </section>
@@ -150,8 +144,8 @@
                 </div>
                 <div class="content">
                     <ul>
-                        <li>Implemented it using one of my plugins, cool_dropdown.</li>
-                        <li>Added a function to give a scroll effect when the words overflow</li>
+                        <li>Implemented it using self-made plugin, cool_dropdown.</li>
+                        <li>Included function to give a scroll effect when the words overflow.</li>
                     </ul>
                 </div>
             </section>
@@ -164,8 +158,8 @@
                 </div>
                 <div class="content">
                     <ul>
-                        <li>Support horizontal and vertical way.</li>
-                        <li>Automatically resize and align to the child Widget.</li>
+                        <li>Displayed horizontally and vertically.</li>
+                        <li>Automatically resizes and aligns to the child Widget.</li>
                     </ul>
                 </div>
             </section>
@@ -216,9 +210,8 @@
                 </div>
                 <div class="content">
                     <ul>
-                        <li>Designed all icons and custom paint in this application.</li>
-                        <li>Implemented animations by interacting with the design to enhance user experience.</li>
-                        <li>Like a buddhism, I tried to design the app in a simple, clean, and minimalistic way.</li>
+                        <li>Designed all icons, animations, and custom painter.</li>
+                        <li>Design is intentional and reflective of Buddhism itself— simple, clean, and minimalistic.</li>
                     </ul>
                 </div>
             </section>
@@ -242,7 +235,7 @@
                 </div>
                 <div class="content">
                     <ul>
-                        <li>Glassmorphism was applied to all floating widgets to give consistency to app usability.</li>
+                        <li>Glassmorphism was applied to all floating widgets to provide consistency for users.</li>
                     </ul>
                 </div>
             </section>
